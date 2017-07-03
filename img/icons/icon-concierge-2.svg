@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-conscierge-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21,17.2 L3,17.2 L3,15.901 C3,10.938 7.037,6.901 12,6.901 C16.963,6.901 21,10.938 21,15.901 L21,17.2 Z M12.5,5.927 C17.789,6.188 22,10.547 22,15.901 L22,17.2 C22,17.752 21.552,18.2 21,18.2 L3,18.2 C2.447,18.2 2,17.752 2,17.2 L2,15.901 C2,10.547 6.211,6.188 11.5,5.927 L11.5,4 L8.024,4 C7.748,4 7.524,3.776 7.524,3.5 C7.524,3.223 7.748,3 8.024,3 L15.975,3 C16.251,3 16.475,3.223 16.475,3.5 C16.475,3.776 16.251,4 15.975,4 L12.5,4 L12.5,5.927 Z M21.5,20.0125 C21.776,20.0125 22,20.2365 22,20.5125 C22,20.7885 21.776,21.0125 21.5,21.0125 L2.5,21.0125 C2.224,21.0125 2,20.7885 2,20.5125 C2,20.2365 2.224,20.0125 2.5,20.0125 L21.5,20.0125 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Conscierge-2" transform="translate(-2.000000, -3.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon-conecierge-2" fill="#666666" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

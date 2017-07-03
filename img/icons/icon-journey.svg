@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-journey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2,1.999 L2,19.683 L8.833,21.841 L15.167,19.841 L22,22 L21.995,4.316 L15.168,2.156 L8.831,4.159 L2,1.999 Z M15.667,18.951 L15.667,3.363 L20.995,5.048 L21,20.634 L15.667,18.951 Z M9.334,5.048 L14.662,3.364 L14.667,18.951 L9.334,20.634 L9.334,5.048 Z M3,18.951 L3,3.364 L8.329,5.048 L8.334,20.634 L3,18.951 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Journey-5" transform="translate(-2.000000, -2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon-journey" fill="#666666" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

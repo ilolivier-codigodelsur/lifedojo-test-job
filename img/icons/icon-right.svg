@@ -1,0 +1,19 @@
+<svg width="9px" height="16px" viewBox="0 0 9 16" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1"
+                 points="8.09289255 11.988 16.0638017 19.9986667 17 19.0546667 9.95102466 12.0079033 16.978843 4.944 16.0452893 4"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Arrow/Right" transform="translate(-8.000000, -4.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon-right" fill="#AAAAAA"
+                 transform="translate(12.053554, 11.999333) rotate(180) translate(-12.053554, -11.999333)"
+                 xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

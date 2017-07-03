@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21,20.594 L16.976,18.063 C16.896,18.012 16.803,17.986 16.709,17.986 L3,17.986 L3,3 L21,3 L21,20.594 Z M21.5,2 L2.5,2 C2.224,2 2,2.223 2,2.5 L2,18.486 C2,18.762 2.224,18.986 2.5,18.986 L16.564,18.986 L21.233,21.922 C21.315,21.974 21.407,21.999 21.5,21.999 C21.583,21.999 21.666,21.979 21.742,21.937 C21.901,21.849 22,21.681 22,21.499 L22,2.5 C22,2.223 21.776,2 21.5,2 L21.5,2 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Chat-2" transform="translate(-2.000000, -2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon-chat" fill="#666666" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

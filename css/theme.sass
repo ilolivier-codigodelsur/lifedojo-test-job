@@ -1,0 +1,153 @@
+$green: #79bf51
+$lightGreen: #86c561
+$blue: #6291b1
+$darkGrey: #666666
+$lightGrey: #cccccc
+$white: #ffffff
+$backgroundGrey: #f6f7f8
+$font-family: 'Roboto', 'Helvetica Neue', sans-serif
+$is-desktop: "screen and (min-width : 991px)"
+$is-mobile: "screen and (max-width : 990px)"
+
+body
+  font-family: $font-family
+  background-color: $backgroundGrey
+
+.only-mobile
+  @media #{$is-desktop}
+    display: none !important
+
+.only-desktop
+  @media #{$is-mobile}
+    display: none !important
+
+header
+  background: $white
+  color: $darkGrey
+
+section.activity-header
+  background: $green
+  color: $white
+  @media #{$is-desktop}
+    background: $white
+    color: $darkGrey
+
+  .header-dow-container
+    .header-dow
+      border-color: $darkGrey
+      color: $darkGrey
+
+      .check
+        background-color: $white
+        @media #{$is-desktop}
+          background-color: $green
+
+      &.today
+        border-color: $white
+        color: $white
+        @media #{$is-desktop}
+          border-color: $green
+          color: $green
+
+      &.active
+        border-color: $white
+        background-color: $white
+        color: $green
+        @media #{$is-desktop}
+          border-color: $green
+          background-color: $green
+          color: $white
+
+      &.disabled
+        opacity: 0.3
+
+      .check-container
+        border-color: $green
+        background-color: $green
+        @media #{$is-desktop}
+          border-color: $white
+          background-color: $white
+
+footer
+  nav
+    background: $white
+    color: $darkGrey
+    box-shadow: 0 5px 30px $lightGrey
+
+    .nav-link
+      color: $darkGrey
+
+      &.active
+        color: $green
+        fill: $green
+
+section.activity-tile
+  .stats
+    border-color: $lightGrey
+    @media #{$is-desktop}
+      display: none
+
+    .stat-container
+      color: $lightGrey
+
+    .stat-number
+      color: $darkGrey
+
+    .vertical-line
+      background-color: $lightGrey
+
+  .activity
+    .check-in-button
+      box-shadow: 0 0 15px $lightGrey
+
+      .check-in-logo-white
+        display: none
+
+      .check-in-text-done
+        display: none
+
+      &:hover
+        background-color: $green
+        .check-in-logo-white
+          display: block
+        .check-in-logo-grey
+          display: none
+        .check-in-text-done
+          display: block
+        .check-in-text-default
+          display: none
+
+      .check-in-text-default
+        color: $lightGrey
+      .check-in-text-done
+        color: $white
+
+  .add-a-note
+    color: $blue
+    @media #{$is-desktop}
+      display: none
+
+header.only-desktop
+  background-color: $green
+
+  .logo
+    color: white
+
+  nav
+    .nav-link
+      color: $white
+      &.active
+        background-color: $lightGreen
+
+  section.user
+    border-color: $white
+    color: $white
+
+    .user-avatar-container
+      .user-icon
+        border-color: $green
+
+.tile
+  background: $white
+  box-shadow: 0 4px 10px #DDD
+

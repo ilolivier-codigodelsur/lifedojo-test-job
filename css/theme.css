@@ -1,0 +1,123 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  background-color: #f6f7f8; }
+
+@media screen and (min-width: 991px) {
+  .only-mobile {
+    display: none !important; } }
+
+@media screen and (max-width: 990px) {
+  .only-desktop {
+    display: none !important; } }
+
+header {
+  background: #ffffff;
+  color: #666666; }
+
+section.activity-header {
+  background: #79bf51;
+  color: #ffffff; }
+  @media screen and (min-width: 991px) {
+    section.activity-header {
+      background: #ffffff;
+      color: #666666; } }
+  section.activity-header .header-dow-container .header-dow {
+    border-color: #666666;
+    color: #666666; }
+    section.activity-header .header-dow-container .header-dow .check {
+      background-color: #ffffff; }
+      @media screen and (min-width: 991px) {
+        section.activity-header .header-dow-container .header-dow .check {
+          background-color: #79bf51; } }
+    section.activity-header .header-dow-container .header-dow.today {
+      border-color: #ffffff;
+      color: #ffffff; }
+      @media screen and (min-width: 991px) {
+        section.activity-header .header-dow-container .header-dow.today {
+          border-color: #79bf51;
+          color: #79bf51; } }
+    section.activity-header .header-dow-container .header-dow.active {
+      border-color: #ffffff;
+      background-color: #ffffff;
+      color: #79bf51; }
+      @media screen and (min-width: 991px) {
+        section.activity-header .header-dow-container .header-dow.active {
+          border-color: #79bf51;
+          background-color: #79bf51;
+          color: #ffffff; } }
+    section.activity-header .header-dow-container .header-dow.disabled {
+      opacity: 0.3; }
+    section.activity-header .header-dow-container .header-dow .check-container {
+      border-color: #79bf51;
+      background-color: #79bf51; }
+      @media screen and (min-width: 991px) {
+        section.activity-header .header-dow-container .header-dow .check-container {
+          border-color: #ffffff;
+          background-color: #ffffff; } }
+
+footer nav {
+  background: #ffffff;
+  color: #666666;
+  box-shadow: 0 5px 30px #cccccc; }
+  footer nav .nav-link {
+    color: #666666; }
+    footer nav .nav-link.active {
+      color: #79bf51;
+      fill: #79bf51; }
+
+section.activity-tile .stats {
+  border-color: #cccccc; }
+  @media screen and (min-width: 991px) {
+    section.activity-tile .stats {
+      display: none; } }
+  section.activity-tile .stats .stat-container {
+    color: #cccccc; }
+  section.activity-tile .stats .stat-number {
+    color: #666666; }
+  section.activity-tile .stats .vertical-line {
+    background-color: #cccccc; }
+section.activity-tile .activity .check-in-button {
+  box-shadow: 0 0 15px #cccccc; }
+  section.activity-tile .activity .check-in-button .check-in-logo-white {
+    display: none; }
+  section.activity-tile .activity .check-in-button .check-in-text-done {
+    display: none; }
+  section.activity-tile .activity .check-in-button:hover {
+    background-color: #79bf51; }
+    section.activity-tile .activity .check-in-button:hover .check-in-logo-white {
+      display: block; }
+    section.activity-tile .activity .check-in-button:hover .check-in-logo-grey {
+      display: none; }
+    section.activity-tile .activity .check-in-button:hover .check-in-text-done {
+      display: block; }
+    section.activity-tile .activity .check-in-button:hover .check-in-text-default {
+      display: none; }
+  section.activity-tile .activity .check-in-button .check-in-text-default {
+    color: #cccccc; }
+  section.activity-tile .activity .check-in-button .check-in-text-done {
+    color: #ffffff; }
+section.activity-tile .add-a-note {
+  color: #6291b1; }
+  @media screen and (min-width: 991px) {
+    section.activity-tile .add-a-note {
+      display: none; } }
+
+header.only-desktop {
+  background-color: #79bf51; }
+  header.only-desktop .logo {
+    color: white; }
+  header.only-desktop nav .nav-link {
+    color: #ffffff; }
+    header.only-desktop nav .nav-link.active {
+      background-color: #86c561; }
+  header.only-desktop section.user {
+    border-color: #ffffff;
+    color: #ffffff; }
+    header.only-desktop section.user .user-avatar-container .user-icon {
+      border-color: #79bf51; }
+
+.tile {
+  background: #ffffff;
+  box-shadow: 0 4px 10px #DDD; }
+
+/*# sourceMappingURL=theme.css.map */

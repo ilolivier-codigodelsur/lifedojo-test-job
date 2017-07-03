@@ -1,0 +1,262 @@
+html {
+  height: 100%; }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+header, footer {
+  flex: 0;
+  z-index: 99; }
+
+section.activity-header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  section.activity-header > div .header-icon {
+    margin: 12px;
+    width: 27px; }
+  section.activity-header > div .header-date {
+    text-align: center;
+    letter-spacing: 3px; }
+    @media screen and (min-width: 991px) {
+      section.activity-header > div .header-date {
+        margin: 15px 0;
+        font-size: 12px;
+        letter-spacing: 2px; } }
+section.activity-header .header-dow-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 12px;
+  margin-bottom: 10px; }
+  @media screen and (min-width: 991px) {
+    section.activity-header .header-dow-container {
+      justify-content: center; } }
+  section.activity-header .header-dow-container .header-dow {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding-top: 2px;
+    border: 2px solid;
+    font-size: 12px;
+    cursor: pointer;
+    line-height: 23px; }
+    @media screen and (min-width: 991px) {
+      section.activity-header .header-dow-container .header-dow {
+        margin-right: 20px; }
+        section.activity-header .header-dow-container .header-dow:last-of-type {
+          margin-right: 0; } }
+    section.activity-header .header-dow-container .header-dow .check {
+      border-radius: 50%;
+      padding: 2px;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      top: -7px;
+      display: none; }
+    section.activity-header .header-dow-container .header-dow.checked .check {
+      display: inline; }
+    section.activity-header .header-dow-container .header-dow .check-container {
+      position: absolute;
+      top: -7px;
+      right: -7px;
+      border: 2px solid;
+      border-radius: 50%;
+      width: 16px;
+      height: 16px; }
+  section.activity-header .header-dow-container .header-icon {
+    margin: 10px; }
+
+footer.only-mobile nav {
+  height: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  footer.only-mobile nav .nav-link {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    white-space: nowrap;
+    font-size: 1rem;
+    padding: 0;
+    text-align: center; }
+    footer.only-mobile nav .nav-link .nav-text {
+      font-size: 11px;
+      margin-top: 3px; }
+    footer.only-mobile nav .nav-link .nav-icon {
+      width: 19px; }
+
+section.activity-tile {
+  flex: 1;
+  overflow: auto;
+  text-align: center; }
+  section.activity-tile .stats {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 14px; }
+    section.activity-tile .stats > div {
+      padding: 10px;
+      flex: 1; }
+    section.activity-tile .stats .stat-description {
+      display: block; }
+    section.activity-tile .stats .stat-number {
+      font-weight: 500;
+      letter-spacing: 2px; }
+    section.activity-tile .stats .vertical-line {
+      width: 1px;
+      margin: 20px 0; }
+  section.activity-tile .activity {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+    section.activity-tile .activity .activity-message {
+      font-weight: 300;
+      display: block;
+      margin: 15px 0 15px;
+      letter-spacing: 1px;
+      font-size: 14px; }
+    section.activity-tile .activity .activity-icon {
+      width: 75px; }
+    section.activity-tile .activity .check-in-button {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+      border-radius: 50%;
+      height: 140px;
+      width: 140px;
+      margin-top: 40px;
+      margin-bottom: 25px; }
+      @media screen and (min-width: 991px) {
+        section.activity-tile .activity .check-in-button {
+          height: 100px;
+          width: 100px;
+          margin-top: 50px;
+          margin-bottom: 40px; } }
+      section.activity-tile .activity .check-in-button .check-in-logo {
+        height: 40px; }
+        @media screen and (min-width: 991px) {
+          section.activity-tile .activity .check-in-button .check-in-logo {
+            height: 35px; } }
+      section.activity-tile .activity .check-in-button .check-in-text {
+        position: relative;
+        top: 10px;
+        font-size: 14px;
+        letter-spacing: 1px; }
+  section.activity-tile .add-a-note {
+    margin-bottom: 30px; }
+
+header.only-desktop {
+  padding: 0 20px;
+  height: 60px;
+  flex: none;
+  text-align: center; }
+  header.only-desktop .logo {
+    display: flex;
+    float: left;
+    height: 100%;
+    line-height: 60px;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px; }
+    header.only-desktop .logo img {
+      margin-right: 3px; }
+  header.only-desktop section.user {
+    float: right;
+    display: flex;
+    font-size: 12px;
+    border-left: 1px solid;
+    padding-left: 20px;
+    margin-top: 10px; }
+    header.only-desktop section.user .user-title-container {
+      text-align: left;
+      margin-right: 30px;
+      letter-spacing: 1px; }
+      header.only-desktop section.user .user-title-container .user-title {
+        font-weight: 500; }
+      header.only-desktop section.user .user-title-container .user-activity {
+        font-weight: 200; }
+    header.only-desktop section.user .user-avatar-container {
+      position: relative; }
+      header.only-desktop section.user .user-avatar-container .user-avatar {
+        height: 40px; }
+      header.only-desktop section.user .user-avatar-container .user-icon {
+        position: absolute;
+        height: 20px;
+        bottom: 0;
+        right: -5px;
+        border: 2px solid;
+        border-radius: 50%; }
+  header.only-desktop nav {
+    height: 100%;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 60px; }
+    header.only-desktop nav .nav-link {
+      display: inline-block;
+      white-space: nowrap;
+      text-align: center;
+      height: 100%;
+      padding: 0 20px;
+      font-weight: 200; }
+
+.tile {
+  margin: 0;
+  border-radius: 5px; }
+  @media screen and (min-width: 991px) {
+    .tile {
+      min-height: 200px;
+      margin: 10px; } }
+
+.content {
+  position: relative;
+  overflow: auto;
+  padding: 10px; }
+  @media screen and (max-width: 990px) {
+    .content {
+      overflow: hidden;
+      padding: 0;
+      flex: 1; } }
+  .content .activity-details {
+    display: flex;
+    justify-content: space-around; }
+  @media screen and (max-width: 990px) {
+    .content .activity-tile {
+      overflow: auto; } }
+  @media screen and (max-width: 990px) {
+    .content .container {
+      padding: 0;
+      margin: 0 0 10px;
+      height: 100%;
+      width: 100%;
+      position: absolute; } }
+  @media screen and (max-width: 990px) {
+    .content .container .row {
+      height: 100%; } }
+  @media screen and (max-width: 990px) {
+    .content .container .activity-container {
+      height: 100%;
+      display: flex;
+      flex-direction: column; } }
+
+.arrow {
+  margin: 0 20px;
+  cursor: pointer; }
+
+/*# sourceMappingURL=layout.css.map */
